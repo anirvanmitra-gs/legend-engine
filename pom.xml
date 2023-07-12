@@ -1859,6 +1859,19 @@
                 <artifactId>legend-engine-xt-openapi-generation</artifactId>
                 <version>${project.version}</version>
             </dependency>
+
+            <dependency>
+                <groupId>org.finos.legend.engine</groupId>
+                <artifactId>legend-engine-xt-data-push-specification-model</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.finos.legend.engine</groupId>
+                <artifactId>legend-engine-xt-data-push-server</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+         
             <!-- ENGINE -->
 
             <!-- PURE -->
@@ -2050,18 +2063,6 @@
                 <version>${legend.pure.version}</version>
             </dependency>
             <!-- PURE -->
-
-            <dependency>
-                <groupId>org.finos.legend.engine</groupId>
-                <artifactId>legend-engine-xt-data-push-specification-model</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>org.finos.legend.engine</groupId>
-                <artifactId>legend-engine-xt-data-push-server</artifactId>
-                <version>${project.version}</version>
-            </dependency>
 
             <!-- LEGEND SHARED -->
             <dependency>
